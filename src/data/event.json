@@ -74,7 +74,7 @@
     }
     },
     {
-        "id": 1,
+        "id": 2,
         "name": "Job Fair 2023 tại Trường Đại học Bách Khoa TPHCM",
         "article": "Sự kiện nổi bật xuyên suốt hàng năm, với mục tiêu kết nối sinh viên trường Đại học Bách Khoa TPHCM với các doanh nghiệp",
         "time" : "July 12, 2023",
@@ -223,7 +223,7 @@
     },
     {
         "id": 4,
-        "name": "Job Fair 2023 tại Trường Đại học Bách Khoa TPHCM",
+        "name": "Job Fair4 2023 tại Trường Đại học Bách Khoa TPHCM ",
         "article": "Sự kiện nổi bật xuyên suốt hàng năm, với mục tiêu kết nối sinh viên trường Đại học Bách Khoa TPHCM với các doanh nghiệp",
         "time" : "July 12, 2023",
         "author": "Le Minh Khiem 4",
