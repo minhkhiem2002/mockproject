@@ -1,0 +1,111 @@
+.modalContainer{
+    display: flex;
+}
+.modalContainer .modalleft{
+    width: 25%;
+}
+.modalContainer .modalright{
+    width: 80%;
+    margin-left: 20px;
+}
+.home{
+    background: rgb(246,200,220);
+background: radial-gradient(circle, rgba(246,200,220,1) 0%, rgba(192,209,255,1) 0%, rgba(207,222,246,1) 0%, rgba(254,234,246,1) 100%, rgba(233,207,236,1) 100%, rgba(205,224,246,1) 100%);
+}
+.homeheader {
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-top: 20px;
+}
+.homeheader .homeleft{
+    width: 45%;
+}
+.homeheader .homeright{
+    width: 55%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.hometext{
+    color: black;    
+}
+.hometextlogo{
+    
+    background: linear-gradient(339deg, rgba(182,76,201,1) 0%, rgba(69,215,37,1) 23%, rgba(60,192,196,1) 40%, rgba(179,81,196,1) 57%, rgba(74,207,24,1) 72%, rgba(39,141,231,1) 91%, rgba(163,95,196,1) 98%);
+    background-clip: text;
+    color: transparent;
+}
+.homeheader .homeright .jumpimage{
+    animation: jump 1.5s ease-in-out infinite alternate;
+}
+@keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+.homebox{
+    display: flex;
+}
+.homebox .homeboxleft{
+    width: 20%;
+    border-right: none;
+}
+.homebox .homeboxright{
+    width: 80%;
+}
+.homecontainer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.homecontainer .homecontainerheader p{
+    text-align: center;
+    font-size: 40px;
+    color: #13a417;
+    font-weight: bold;
+}
+.homecontainer .homecontainerheader span{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.homecontainer .homecontainerheader p::before{
+  content: "";
+  display: inline-block;
+  background-image: url("https://static.topcv.vn/v4/image/welcome/mobile-app/decorated_title_green.png");
+  width: 268px;
+  height: 5px;
+  text-align:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.homecontainer .homecontainerheader p::after{
+  content: "";
+  display: inline-block;
+  background-image: url("https://static.topcv.vn/v4/image/welcome/mobile-app/decorated_title_green.png");
+  width: 268px;
+  height: 5px;
+  margin-left: 10px;
+  text-align:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
+}
+.homecontainer .homecontainerbody{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border-radius: 40px 0 40px 0;
+}
+.homecontainer .homecontainerbody p{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 20px;
+}

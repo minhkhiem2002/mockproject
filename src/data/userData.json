@@ -1,0 +1,12 @@
+{
+  "name": "John Doe",
+  "avatar": "https://i0.wp.com/thatnhucuocsong.com.vn/wp-content/uploads/2023/02/Hinh-anh-avatar-cute.jpg?ssl=1",
+  "gender": "Male",
+  "email": "johndoe@example.com",
+  "phone": "1234567890",
+  "address": "123 Street, City, Country",
+  "cv": {
+    "languages": ["ReactJS", "PHP", "Java"],
+    "experience": "2 years"
+  }
+}

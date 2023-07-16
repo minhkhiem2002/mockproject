@@ -1,0 +1,39 @@
+.event {
+    background: rgb(246,200,220);
+background: radial-gradient(circle, rgba(246,200,220,1) 0%, rgba(192,209,255,1) 0%, rgba(207,222,246,1) 0%, rgba(254,234,246,1) 100%, rgba(233,207,236,1) 100%, rgba(205,224,246,1) 100%);
+}
+.event .text1{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.event .text2{
+    text-align: center;
+    color: #4E4E4E;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.eventsplit{
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.eventleft{
+    width: 80%;
+}
+.eventleft h2{
+    color: #212f3f;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0 0 24px;
+    padding-left: 10px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.eventright{
+    width: 35%;
+    margin-left: 20px;
+}
