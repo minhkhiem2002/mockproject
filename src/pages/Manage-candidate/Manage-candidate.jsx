@@ -46,7 +46,7 @@ function ManageCandidate() {
         e.preventDefault();
     };
     return (
-        <div className="Manage-candidate-container" style={{ backgroundImage: `url(${background})` }}>
+        <div className="Manage-candidate-container" >
             <div className="Manage-candidate-tab-name">
                 <div className="Manage-candidate-content-tab-name">
                     Quản lý ứng viên
@@ -134,7 +134,7 @@ function ManageCandidate() {
                                         <button className={`Manage-candidate-button-edit-candidate ${item.status === "Blacklist" ? "disable-blacklist" : ""}`}>
                                             <Link className={`Manage-candidate-color-button-add ${item.status === "Blacklist" ? "disable-link" : ""}`}
                                                 to={item.status !== "Blacklist" ? `/reason-blacklist/${item.id}` : "#"}>
-                                                Thêm vào blacklist
+                                                Add blacklist
                                             </Link>
                                         </button>
 

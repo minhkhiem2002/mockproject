@@ -9,7 +9,7 @@ import axios from "axios"
 import { Link } from 'react-router-dom';
 import {Timeline} from 'antd'
 import event from "../event.json"
-import useUser from '../../../hooks/useUser';
+import useUser from '../../../hooks/useUser.js';
 
 const Home = () => {
     const [tableData, setTableData] = useState([]);
@@ -121,9 +121,7 @@ const Home = () => {
       };
     return (
         <div className='home'>
-            <div className='top-main'>
-                <h1>Hello {currentUser.name}</h1>
-            </div>
+            
             <p style={{margin:'35px 0px -25px 35px', fontWeight:'bolder'}}>Các ứng viên gần đây</p>
                 <div className='container-cv' >
                     <div className='table-cv'>

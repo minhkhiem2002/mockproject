@@ -55,6 +55,8 @@ const Login = () => {
       setIsLoggedIn(true);
 
       navigate("/home");
+      window.location.reload();
+
     } else {
       localStorage.setItem("token", false);
 

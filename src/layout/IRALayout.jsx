@@ -20,13 +20,17 @@ import IRAFooter from "../components/IRALayout/IRAFooter"
 const items = [
     { key: "/", icon: <HomeOutlined />, label: "Home" },
     { type: "divider" },
-    // { key: "/event", icon: <FireOutlined />, label: "Event" },
-    // { key: "/interview", icon: <VideoCameraOutlined />, label: "Interview" },
-    // { key: "/recruitment", icon: <FileSearchOutlined />, label: "Recruitment" },
-
-    // Interview
-    { key: "/interview", icon: <VideoCameraOutlined />, label: "Buổi phỏng vấn" },
-    { key: "/questions", icon: <QuestionCircleOutlined />, label: "Bộ câu hỏi" }
+    { key: "/event", icon: <FireOutlined />, label: "Event" },
+    { key: "/interview", icon: <VideoCameraOutlined />, label: "Interview" },
+    { key: "/recruitment", icon: <FileSearchOutlined />, label: "Recruitment" },
+    // { key: "/login", icon: <FileSearchOutlined />, label: "Login" },
+    // { key: "/register", icon: <FileSearchOutlined />, label: "Register" },
+    // { key: "/resetpassword", icon: <FileSearchOutlined />, label: "Reset Password" },
+    { key: "/interviewercalendar", icon: <FileSearchOutlined />, label: "InterviewerCalendar" },
+    { key: "/questions", icon: <FileSearchOutlined />, label: "Questions" },
+    { key: "/manage-user", icon: <FileSearchOutlined />, label: "Manage User" },
+    { key: "/manage-candidate", icon: <FileSearchOutlined />, label: "Manage Candidate" },
+    { key: "/blacklist", icon: <FileSearchOutlined />, label: "Blacklist" },
 ]
 const IRALayout = ({ collapsed, SetCollapsed, children }) => {
     const {

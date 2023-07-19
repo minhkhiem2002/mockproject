@@ -1,5 +1,4 @@
 import { Badge, Calendar } from 'antd';
-import './Calendar.scss';
 const getListData = (value) => {
     let listData;
     switch (value.date()) {
@@ -45,18 +44,6 @@ const getListData = (value) => {
                     type: 'error',
                     content: 'This is error event 1.',
                 },
-                {
-                    type: 'error',
-                    content: 'This is error event 2.',
-                },
-                {
-                    type: 'error',
-                    content: 'This is error event 3.',
-                },
-                {
-                    type: 'error',
-                    content: 'This is error event 4.',
-                },
             ];
             break;
         default:
@@ -68,7 +55,7 @@ const getMonthData = (value) => {
         return 1394;
     }
 };
-const Calendar = () => {
+const InterviewerCalendar = () => {
     const monthCellRender = (value) => {
         const num = getMonthData(value);
         return num ? (
@@ -97,25 +84,13 @@ const Calendar = () => {
     };
     return (
         <>
-            <div className='edit-container'>
-                <div className='top-main'>
-                    <h1>Hello Devs !</h1>
-                </div>
-                <div className='avatar-container'>
-                    <div className="tab-name">
-                        <div className="content-tab-name">
-                            Lịch làm việc
-                        </div>
-                        <div className="button-tab-name">
-                            <button className="button-back">Back</button>
-                        </div>
-                    </div>
-                </div>
-                <div className='info-container'>
-                    <Calendar cellRender={cellRender} />
-                </div>
+        <div className="flex w-full mt-7 bg-white h-[800px] flex-col" style={{ borderRadius: 5 }}>
+            <div className="flex w-full absolute right-[1px] mt-[-99px] bg-white h-16 rounded-xl items-center">
+                <div className="ml-10 text-xl text">Lịch làm việc</div>
             </div>
+            <Calendar cellRender={cellRender} />
+        </div>
         </>
     );
 };
-export default Calendar;
+export default InterviewerCalendar;

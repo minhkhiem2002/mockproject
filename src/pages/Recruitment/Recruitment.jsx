@@ -64,7 +64,7 @@ const Recruitment = () => {
                                     <img
                                         alt="cava"
                                         className="w-full h-full object-cover"
-                                        src="https://logowik.com/content/uploads/images/react7473.logowik.com.webp"
+                                        src={recruit.image}
                                     ></img>
                                 </div>
                             </div>

@@ -59,11 +59,11 @@ const Edit = () => {
   };
 
   return (
-    <div className='edit-container'>
-      <div className='top-main'>  
+    <div className='edited-container'>
+      {/* <div className='top-main'>  
           <h1>Hello Devs !</h1>
       </div>
-    
+     */}
       <div className='avatar-container'>
             <img className='avatar-edit' src={image} />
             <h2>{name}</h2>
@@ -93,10 +93,10 @@ const Edit = () => {
               <p>Địa chỉ</p>
               <input type='text' placeholder={name}/>
           </div>
-          <div className='info-item' style={{marginBottom:'10px'}}>
+          {/* <div className='info-item' style={{marginBottom:'10px'}}>
               <p>Sửa mật khẩu</p>
               <input type='text' placeholder={name}/>
-          </div>
+          </div> */}
 
 
 

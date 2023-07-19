@@ -59,7 +59,7 @@ function BlackList() {
 
 
     return (
-        <div className="Blacklist-container" style={{ backgroundImage: `url(${background})` }}>
+        <div className="Blacklist-container" >
             <div className="Blacklist-tab-name">
                 <div className="Blacklist-content-tab-name">
                     Blacklist
@@ -159,7 +159,9 @@ function BlackList() {
                                 `}>{item.status}</div>
                                     </div>
                                     <div className="Blacklist-details-content-candidate" >
-                                        <button className="Blacklist-button-view">View</button>
+                                        <button className="Blacklist-button-view">
+                                            <Link to={`/detail-blacklist/${item.id}`}>View</Link>
+                                        </button>
                                     </div>
                                 </div>
                             )}

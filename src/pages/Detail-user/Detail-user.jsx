@@ -98,7 +98,7 @@ function DetailUser() {
 
 
     return (
-        <div className="Detail-user-container" style={{ backgroundImage: `url(${background})` }}>
+        <div className="Detail-user-container" >
             <div className="Detail-user-tab-name">
                 <div className="Detail-user-content-tab-name">
                     Quản lý tài khoản

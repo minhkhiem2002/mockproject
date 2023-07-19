@@ -120,7 +120,7 @@ const ManageUser = () => {
 
 
     return (
-        <div className="Manage-user-container" style={{ backgroundImage: `url(${background})` }}>
+        <div className="Manage-user-container" >
             <div className="Manage-user-tab-name">
                 <div className="Manage-user-content-tab-name">
                     Quản lý tài khoản

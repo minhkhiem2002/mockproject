@@ -19,7 +19,7 @@ function InterviewMeeting() {
 
 
     return (
-        <div className="ReasonBlacklist-container" style={{ backgroundImage: `url(${background})` }}>
+        <div className="ReasonBlacklist-container" >
             <div className="ReasonBlacklist-tab-name">
                 <div className="ReasonBlacklist-content-tab-name">
                     Thêm vào Blacklist
